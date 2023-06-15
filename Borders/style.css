@@ -1,0 +1,53 @@
+/* border-style tells what type of border to display */
+/* border-width:5px;-->specify width of four border 
+   border-width: 5px 10px;-->specify width 5px from top and bottom 10px from left and right
+   border-color: red;--> specify the color of the border
+   shorthand border
+    border: 2px solid black;//border-width border-style border-color
+*/
+p.dotted{
+    border-style: dotted;
+    border-width: 10px;
+}
+p.dashed{
+    border-style: dashed;
+    /* specify width 5px from top and bottom 10px from left and right */
+    border-width: 5px 10px;
+    border-color: red;
+}
+p.solid 
+{
+    /* border shorthand apply */
+    border: 5px solid green;
+ }
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+}
+p.ridge {
+    border-style: ridge;
+}
+/* p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;
+}
+p.hidden {
+    border-style: hidden;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+} */
+
+
+.border-radius{
+    border: 5px solid blue;
+    border-radius: 50px;
+    padding : 30px;
+}
