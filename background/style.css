@@ -8,4 +8,26 @@
 
 body{
     background-color: lightblue;
+    background-image: url("./brick.png");
+    /* image will not repeated */
+    background-repeat: no-repeat;
+    /* set the starting of background position */
+    background-position: top right;
+
+    /* background-attachment specify weather background-image should fixed or scroll with rest of the page content*/
+    background-attachment: scroll;
 }
+
+.bgColor{
+    /* set background color */
+    background-color: #0bef0b;
+    /* transparency of the element */
+    opacity: 0.5;
+}
+
+
+.bg-image{
+    /* by default background image repeat horizontally and vertically */
+    background-image: url("./brick.png");
+}
+
