@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+.colorName{
+    color: red;
+    background-color: aqua;
+}
+.RGB{
+    margin-top: 1.5rem;
+    /* rgb(red,green,blue) */
+    color:rgb(255, 134, 71);
+    /* rgba(red,green,blue,alpha(opacity) */
+    background-color: rgba(255, 134, 23,0.5);
+}
+.HEX{
+    margin-top: 1.5rem;
+    /* #rrggbb--pattern(00->ff) */
+    color: #b4dd7a;
+    background-color: #fc9;
+}
+
+.HSL{
+    margin-top: 1.5rem;
+    color: hsl(274, 63%, 50%);
+
+    /* hsla(hue,saturation,lightness,alpha) */
+    background-color: hsla(0, 100%, 50%, 0.5);
+}
