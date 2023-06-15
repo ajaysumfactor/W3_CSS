@@ -15,7 +15,7 @@ body{
     background-position: top right;
 
     /* background-attachment specify weather background-image should fixed or scroll with rest of the page content*/
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .bgColor{

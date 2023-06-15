@@ -1,0 +1,78 @@
+/* The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+ */
+*{
+    margin: 0;
+}
+ .box1{
+    background-color: rgb(123, 12,11);
+    border: 2px solid black;
+    /* provide margin top--right--bottom--left all have 30px  
+    all four direction have same pixel margin*/
+    margin: 30px;
+ }
+ 
+ .box2{
+    background-color: rgb(198, 142,131);
+    border: 2px solid black;
+    /* margin-top-->12px
+       margin-right-->5px
+       margin-bottom-->15px
+       margin-left-->20px */
+    margin: 12px 5px 15px 20px;
+ }
+ 
+ .box3{
+    background-color: rgb(133, 122,11);
+    border: 2px solid black;
+    /* margin-top-->12px
+       margin-right-->30px
+       margin-bottom-->10px
+       margin-left-->30px */
+    margin: 12px 30px 10px;
+ }
+ .box4{
+    background-color: rgb(20, 122,11);
+    border: 2px solid black;
+    /* margin-top-->12px
+       margin-right-->10px
+       margin-bottom-->12px
+       margin-left-->10px */
+    margin: 12px 10px;
+ }
+
+ .auto{
+    border: 2px solid red;
+    width: 200px;
+    /* margin--auto is used to horizontally center the element in the containeer */
+    margin: auto;
+    text-align: center;
+ }
+
+ .inherit{
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 30px;
+ }
+ p.ext1{
+    /* Here margin-left will take 100px from parent */
+    margin-left: inherit;
+ }
+ .collapse{
+    border: 2px solid black;
+    margin-top: 20px;
+    text-align: center;
+ }
+ .collapse>h1{
+    margin: 0 0 50px 0;
+    border: 2px solid red;
+
+ }
+ /* here h1 have bottom margin 50px 
+ h2 top--20px 
+ overall should be (70px) but here margin will collapse and will be larger of two max(50px,20px)=50px */
+ .collapse>h2{
+    margin: 20px 0 0 0;
+    border: 2px solid green;
+
+ }
