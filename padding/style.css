@@ -1,0 +1,34 @@
+/* Padding-->to create space around content and defined border */
+
+.padding{
+    border: 2px solid black;
+    /* padding-top: 30px
+       padding-right: 30px
+       padding-bottom: 30px
+       padding-left: 30px
+ */
+    padding: 30px;
+    /* padding: 10px 20px 30px; */
+    /* padding: 20px 30px; */
+}
+.box1{
+    width: 300px;
+    background-color: aqua;
+}
+.box2{
+    width: 300px;
+    padding: 30px;
+    /* Box sizing: border-box is used when we not want to include left and right padding in the width (maintain actual width) */
+    /* box-sizing: border-box; */
+    background-color: blueviolet;
+}
+
+
+
+p.padding1 {
+    padding-top: 2cm;
+  }
+  p.padding2 {
+    border: 2px solid black;
+    padding-top: 50%;
+  }
