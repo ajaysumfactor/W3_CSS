@@ -36,6 +36,25 @@
 ##### outline-offset (make a space between border and the outline)
         outline-offset: px;
 
+# CSS Text
+#### color property--set the color to the text
+    1. color: name/hex/rgb;
+    2. text-alignment
+        text-align-->set horizontal alignment of a text;
+        text-align-last-->  how to align the last line of a text
+        direction-->properties can be used to change the text direction of an element:
+        unicode-bidi
+        vertical-align:--> Set the vertical alignment of an image in a text: 
+    3. text-decoration-line/color/style/thickness
+    4. text-spacing
+        text-indent:length;
+        letter-spacing:length;
+        line-height: length;
+        word-spacing: length;
+        whitespace:nowrap;
+    5. text-shadow: horizontal vertical blur color;
+
+   
 
 
 
@@ -49,9 +68,4 @@
 
 
 
-
-
-        outline-color
-        outline-width
-        outline-offset
-        outline
+ 

@@ -1,0 +1,37 @@
+.color{
+    color: green;
+}
+
+p.one{
+    text-align: center;
+}
+p.alignLast{
+    text-align-last: right;
+}
+
+p.textDirection{
+    direction: rtl;
+  unicode-bidi: bidi-override;
+}
+span{
+    vertical-align: text-bottom;
+    font-size: 20px;
+}
+p.text-decoration{
+    text-decoration: underline red double 5px;
+}
+p.text-transform{
+    /* can be uppercase lowercase capitalise */
+    text-transform: uppercase;
+}
+
+h2.text-spacing{
+    /* letter-spacing
+    line-height
+    word-spacing */
+    text-indent: 50px;
+}
+
+h1.shadow{
+    text-shadow: 3px 5px 10px green;
+}
