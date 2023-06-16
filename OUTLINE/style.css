@@ -1,0 +1,16 @@
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;
+    outline-width: 10px;
+    outline-color: aqua;
+    /* shorthand property */
+    /* outline: 10px dashed aqua; */
+ border: 5px solid green;}
+
+
+ p.offset{
+    margin: 30px;
+    background:yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+ }
