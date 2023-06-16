@@ -70,6 +70,12 @@
     bootstrap icon
     google icons
 
+# CSS Links
+#### Styling Links
+    1. a:link - a normal, unvisited link
+    2. a:visited - a link the user has visited
+    3. a:hover - a link when the user mouses over it
+    4. a:active - a link the moment it is clicked
    
 
 

@@ -1,0 +1,33 @@
+a:link {
+    color: red;
+  }
+  
+  
+  a:visited {
+    color: green;
+  }
+  
+   
+  a:hover {
+    /* a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover */
+    color: hotpink;
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
+  a.link_button:link, a.link_button:visited{
+    background-color: aqua;
+    color: black;
+    border: 5px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  a.link_button:hover, a.link_button:active {
+    background-color: green;
+    color: white;
+  }
