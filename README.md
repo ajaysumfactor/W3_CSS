@@ -65,6 +65,11 @@
     Web safe fonts are fonts that are universally installed across all browsers and devices.
 #### Fallback fonts
 
+# Icons
+    fontawesome
+    bootstrap icon
+    google icons
+
    
 
 
