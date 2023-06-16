@@ -1,0 +1,12 @@
+.box-modal{
+    background-color: antiquewhite;
+    border: 20px solid red;
+    padding: 30px;
+    margin: 20px;
+    width: 50%;
+}
+.description{
+    width: 320px;
+    padding:10px;
+    border: 5px solid violet;
+}
