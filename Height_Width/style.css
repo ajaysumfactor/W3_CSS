@@ -1,0 +1,47 @@
+/* 
+height: sets the height of an element
+max-height: sets the maximum height of an element
+min-height: sets the minimum height of an element
+max-width: sets the maximum width of an element 
+min-width: sets the minimum width of an element
+width: sets the width of an element
+ */
+.Height_Width{
+    border: 2px solid green;
+    /* default browser calculate height and width based on content */
+    height: auto;
+    width: auto;
+    /* 
+    height:100px;
+    width: 200px; */
+}
+.outer{
+    margin-top: 30px;
+    border: 2px solid black;
+    /* width: 400px; */
+    /* if height is not specified computed to auto here */
+    height:500px;
+}
+.box{
+    border: 2px solid red;
+    
+    width: 50%;
+    height: 40%;
+}
+.outer1{
+    height: 500px;
+   border: 2px solid black;
+}
+.max_width{
+    margin-top: 20px;
+    border: 2px solid black;
+
+ background-color: aqua;
+ max-width: 700px;
+ min-width: 200px;
+
+ max-height: 500px;
+ min-height: 200px;
+ /* height:100px */
+
+}
