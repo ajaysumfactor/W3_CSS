@@ -54,6 +54,17 @@
         whitespace:nowrap;
     5. text-shadow: horizontal vertical blur color;
 
+# CSS FONT
+    Generic font family
+    1. serif
+    2. sans-serif
+    3. Monospace
+    4. Cursive
+    5. Fantasy
+#### Web safe font?
+    Web safe fonts are fonts that are universally installed across all browsers and devices.
+#### Fallback fonts
+
    
 
 
