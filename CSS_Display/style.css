@@ -1,0 +1,13 @@
+.inline>li{
+    display:inline;
+}
+span{
+    display: block;
+}
+h1.hidden{
+    display: none;
+}
+
+h1.hidden2{
+    visibility: hidden;
+}

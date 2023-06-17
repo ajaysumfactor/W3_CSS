@@ -103,6 +103,29 @@
     4. table-style/can give margin/padding/background-color/color;
 
 
+# DISPLAY
+    1. CSS Property for controlling layout.
+    2. Specifies how element is displayed.
+    3. display:inline/block/inline-block/none.
+
+#### inline display
+    1. element does not start in a new line.
+    2. only takes up as much width as necessary.
+    3. can not set height and width.
+    4. vertical margin will not work.
+#### Block display
+    1. Element starts in a new line.
+    2. Takes up full-width of the parent element.
+#### display: inline-block;
+    1. height and width of element can be set now.
+    2. vertical margin is allowed.
+    3. element can sit next to each other.
+#### display: none
+    1. property hides the elements in a browser. It actually removes the element from the HTML page and nothing is shown in its place.
+#### visibility: hidden;
+    1. the element is not removed from the page and still occupies
+
+
 
 
 
