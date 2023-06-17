@@ -1,0 +1,33 @@
+table{
+    /* here table will take 50% width */
+    width: 50%;
+    /* border-collapse:--> collapse the double line border */
+    border-collapse: collapse;
+}
+table,tr,td{
+    /* set the border  */
+    border: 1px solid black;
+
+}
+thead td{
+    /* setting the height to table head row to 30 px  */
+    height: 30px;
+    text-align: left;
+
+}
+ 
+td{
+    text-align: center;
+    vertical-align: bottom;
+}
+table.a{
+    border-collapse: collapse;
+  width: 100%;
+}
+
+/* tr:hover {background-color: coral;} */
+tr:nth-child(even) {background-color: #1fefbb;}
+.a th{
+    background-color: green;
+    color: white;
+}

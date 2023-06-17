@@ -96,7 +96,11 @@
     margin:0;
     padding:0;
 
-
+# CSS Table
+    1. border-collapse: collapse;
+    2. text-align: center;
+    3. vertical-align: top/bottom/middle;
+    4. table-style/can give margin/padding/background-color/color;
 
 
 
