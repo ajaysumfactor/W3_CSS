@@ -1,0 +1,17 @@
+ul.a{
+    /* list-style-type: circle/square/upper-roman/ */
+    list-style-type: square;
+    /* list-style-image: url('brick.png'); */
+    background-color: blueviolet;
+    padding: 20px;
+    color: yellow;
+
+}
+ul.a li{
+  padding: 20px;
+}
+ol.c{
+    list-style-type: upper-roman;
+    /* list-style-position:outside/inside */
+    list-style-position: inside;
+}

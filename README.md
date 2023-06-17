@@ -11,7 +11,7 @@
 # CSS OUTLINE
 ### Overview
     1. An outline is a line drawn outside the border.
-    2. the element's total width and height is not affected by the width of the outline.
+    2. the element's total width and height is not affected by the width of the outline .
     3. it has following properties
 ##### outline-style
     dotted - Defines a dotted outline
@@ -25,7 +25,7 @@
     none - Defines no outline
     hidden - Defines a hidden outline
 
-#### None of the other outline properties (which you will learn more about in the next chapters) will have ANY effect unless the outline-style property is set!
+#### None of the other outline properties will have ANY effect unless the outline-style property is set!
 
 ##### Outline-width(specifies the width of the outline,and can have one of the following values)
     value(thin/medium/thick/px/pt/cm/em)
@@ -77,6 +77,25 @@
     3. a:hover - a link when the user mouses over it
     4. a:active - a link the moment it is clicked
    
+#### Text-decoration(mostly use to remove underline )
+#### Background-color
+#### Link Buttons
+
+# CSS List
+###  Types
+    1. Ordered list 
+    2. unordered list
+### property
+    list-style-type: square/circle/upper-roman;
+    list-style-image: url('');
+    list-style-position: outside/inside;
+### Shorthand property
+    list-style: list-style-type list-style-position list-style-image;
+### removing default style setting in list
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
 
 
 
