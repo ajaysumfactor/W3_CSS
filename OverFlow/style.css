@@ -1,0 +1,36 @@
+div {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+  }
+  .hidden{
+    background-color:blue;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .scroll{
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+  }
+  .auto{
+    background-color: green;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  .XY{
+    background-color: red;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
