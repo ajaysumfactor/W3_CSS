@@ -1,0 +1,9 @@
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* only worked on position (relative,absolute,fixed,sticky) */
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
