@@ -1,0 +1,13 @@
+.child ~ p {
+    background-color: yellow;
+  }
+
+  div + p {
+    background-color: yellow;
+  }
+  .child>p{
+    background-color: aqua;
+  }
+  div p{
+    color: green;
+  }
