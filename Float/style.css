@@ -1,0 +1,39 @@
+/* Normally div elements will be displayed on top of each other. However, if we use float: left we can let elements float next to each other: */
+img{
+    /* float property specifies how an element should float
+    float: left/right/none/inherit */
+    float: left;
+    width:170px;
+    height: 170px;
+    margin-left: 15px;
+}
+
+
+
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div2 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div3 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+
+  /* when we use float property and we want the next element below (not right not left ) we will have to use the clear property */
+  
+  .div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+  }
+  .one{
+    margin-top: 30px;
+  }
