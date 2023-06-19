@@ -1,0 +1,27 @@
+.center{
+    margin: auto;
+    width: 60%;
+     border: 3px solid green;
+    padding: 10px;
+}
+.centerText{
+    text-align: center;
+    border: 3px solid green;
+    margin-top: 20px;
+}
+
+img{
+    /* centering an image  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center_vertically_horizontally{
+    display: flex;
+    /* horizontally centered */
+    justify-content: center;
+    /* vertically centered */
+    align-items: center;
+    height: 200px;
+    border: 2px solid greenyellow;
+}
