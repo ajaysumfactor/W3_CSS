@@ -1,0 +1,31 @@
+/* 1. used to define a special state of an elemnt
+2. style an elemnt when a user mouses over it .
+3. style when it focused.
+4. style visited and unvisited link differently */
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+
+  /* :lang allows you to define special rules for different languages
+  :lang-->define quotation marks for <q> elements with lang="no" */
+  q:lang(no) {
+    quotes: "~" "~";
+  }
