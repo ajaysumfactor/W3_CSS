@@ -1,0 +1,52 @@
+/* Pseudo-element
+-->used to style specified parts os an element
+for-ex--> style the first letter,line of an element
+          insert content before,after the content of an element.
+           */
+
+p.first_line::first-line{
+    color: aqua;
+}
+
+div>p::first-letter{
+    font-size: 2rem;
+    color: green;
+
+}
+.one{
+    position: relative;
+    height: 760px;
+    background-image: url('./universe.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+ 
+     
+}
+
+.one::before{
+    content: "";
+    background-image: url('./landscape.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 1;
+    border: 3px solid green;
+    position: absolute;
+    width:33%;
+    height: 33%;
+     top: 33%;
+    left: 33%;
+    z-index: 2;
+ 
+}
+::marker{
+    color: red;
+    font-size: 23px;
+}
+::selection{
+    color: red;
+    background: yellowgreen;
+}
