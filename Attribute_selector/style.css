@@ -1,0 +1,24 @@
+.attribute a[target]{
+    background-color: blue;
+}
+.target_value a[target="_blank"]{
+    background-color: yellow;
+}
+.value_containing_specific_word img[alt~='world']{
+  background-color: antiquewhite;
+}
+
+.value_exact_or_specified_by_hypen img[alt|="disney"]{
+  background-color: greenyellow;
+}
+
+.value_start_with_specific_value img[alt^="tea"]{
+    font-size: 30px;
+}
+.select_whose_value_end_with_specific_value img[alt$="tea"]{
+    display: block;
+}
+.whose_value_contain_specified_value img[alt*="the"]{
+    color:red;
+    font-size: 20px;
+}
