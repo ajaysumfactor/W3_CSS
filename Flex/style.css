@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    border: 3px solid green;
+}
+.box{
+    height:100px;
+    width: 140px;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    margin: 45px 0;
+
+}

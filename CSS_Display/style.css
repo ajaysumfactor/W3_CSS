@@ -1,5 +1,8 @@
 .inline>li{
     display:inline;
+    background-color: aqua;
+    height: 30px;
+    width: 50px;
 }
 span{
     display: block;

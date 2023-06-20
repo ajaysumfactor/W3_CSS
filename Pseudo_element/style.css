@@ -23,6 +23,7 @@ div>p::first-letter{
     background-position: center;
     background-size: cover;
     color: white;
+    text-align: center;
  
      
 }
@@ -39,6 +40,7 @@ div>p::first-letter{
     position: absolute;
     width:33%;
     height: 33%;
+    /* min-width: 250px; */
      top: 33%;
     left: 33%;
     z-index: 2;
