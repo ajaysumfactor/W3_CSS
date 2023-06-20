@@ -1,0 +1,22 @@
+div.gallery{
+ border: 3px solid green;
+ float: left;
+ margin: 15px;
+ width: 180px;
+ 
+
+}
+/* image will take entire width of their parent gallery class */
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+ text-align: center;
+ padding: 15px;
+
+
+}
+div.gallery:hover{
+    border: 2px solid red;
+}
