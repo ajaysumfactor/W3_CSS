@@ -3,10 +3,12 @@
 3. style when it focused.
 4. style visited and unvisited link differently */
 /* unvisited link */
-a:link {
+/* a:link {
+    color: red;
+  } */
+  a{
     color: red;
   }
-  
   /* visited link */
   a:visited {
     color: green;
