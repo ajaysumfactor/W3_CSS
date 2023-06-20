@@ -3,7 +3,9 @@
 for-ex--> style the first letter,line of an element
           insert content before,after the content of an element.
            */
-
+body{
+    margin: 0;
+}
 p.first_line::first-line{
     color: aqua;
 }
