@@ -1,0 +1,11 @@
+#box{
+    border: 1px solid black;
+    background: yellow;
+    /* width: 100%; */
+    height: 300px;
+    padding: 20px;
+    /* here box width becomes 
+    box width+leftpadding+rightPadding+leftBorder+RightBorder
+     */
+    width: calc(100%-20px-20px-1px-1px);
+}
