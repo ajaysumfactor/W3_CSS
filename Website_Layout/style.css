@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+.nav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.nav a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: antiquewhite;
+
+ }
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
