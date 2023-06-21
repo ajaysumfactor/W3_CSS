@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+#header{
+    border: 0px solid black;
+    background: yellow;
+    width: 100%;
+    height: 100px;
+    
+ }
+#content{
+    border: 0px solid black;
+    background: indianred;
+    width: 100%;
+    /* be sure to put space around minus sign */
+    /* subtract height of header and footer from 100vh to fix content size */
+    height: calc(100vh - 200px);
+
+}
+#footer{
+    border: 0px solid black;
+    background: green;
+    width: 100%;
+    height: 100px;
+}
