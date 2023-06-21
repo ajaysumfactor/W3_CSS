@@ -1,0 +1,14 @@
+/* Advantage of using image sprites
+-->Is to reduce the number of http requests that make our site's load time faster.
+-->supppose i have use more than 10 images in our websites there will more request and this leads to reduce the performence of our websites */
+#home {
+    width: 46px;
+    height: 44px;
+    background: url(img_navsprites.gif) 0 0;
+  }
+  
+  #next {
+    width: 43px;
+    height: 44px;
+    background: url(img_navsprites.gif) -91px 0;
+  }
