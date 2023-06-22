@@ -1,0 +1,12 @@
+ div{
+    color: violet;
+ }
+ .one{
+color: yellow;
+ }
+ #two{
+   color: red;
+ }
+ div[id=two]{
+   color: aqua;
+ }
