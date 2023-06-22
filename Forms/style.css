@@ -1,0 +1,25 @@
+/* it applied to all input field */
+/* input{
+    width: 100%;
+} */
+/* to apply particularly we can select via
+input[type="text"]
+input[type="passward"]
+input[type="number"]
+ */
+
+ input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    /* focused input */
+    
+ }
+ input[type=text]:focus{
+  background-color: lightblue;
+ }
