@@ -1,0 +1,35 @@
+/* 
+border-image-source:specifies path to the image
+border-image-slice: specifies hoe to slice the border images
+border-image-width: width of the border images
+border-image-outset: amount by which border image area extends beyond the border box
+border-image-repeat:specifies weather border images repeated/rounded/stretched */
+.bordering{
+    border: 10px solid transparent;
+    padding: 15px;
+    /* middle block repeated 30 times */
+    border-image: url('./border.png') 30 round;
+}
+
+
+.stretched{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 stretch;
+}
+
+.bordering1{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 50 round;
+}
+.bordering2{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 20% round;
+}
+.bordering3{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30% round;
+}
