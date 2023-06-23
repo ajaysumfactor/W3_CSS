@@ -1,0 +1,4 @@
+.multiple_background{
+    background: url('./flower.gif') right bottom no-repeat,url('./background.gif') left top repeat;
+    padding: 20px;
+}
