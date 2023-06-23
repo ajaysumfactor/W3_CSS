@@ -20,3 +20,17 @@
     /* width and height must fit inside the content area */
     background-size: contain;
 }
+
+#background_origin{
+    border: 10px solid black;
+    padding: 35px;
+    background: url('./flower.gif');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+#background_clip{
+    border: 10px dashed black;
+    padding: 35px;
+    background:crimson;
+    background-clip: padding-box;
+}

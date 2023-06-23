@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>setting multiple background images to one element</h1>
     <div class="multiple_background">
         <h1>setting multiple background</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quia tenetur, repudiandae debitis molestias iure deserunt doloribus error fugiat animi rem. Quia reprehenderit vitae incidunt, sit et enim sint assumenda?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quia tenetur, repudiandae debitis
+            molestias iure deserunt doloribus error fugiat animi rem. Quia reprehenderit vitae incidunt, sit et enim
+            sint assumenda?</p>
     </div>
 
     <h1>Background size (contain,cover)</h1>
     <div class="contain">
         Lorem ipsum dolor sit amet.
-     </div>
+    </div>
     <div class="cover">
         Lorem ipsum dolor sit amet.
-     </div>
-</body>
+    </div>
+
+
+
+
+    <h1>Background-origin Property </h1>
+    <!-- border-box - the background image starts from the upper left corner of the border
+    padding-box - (default) the background image starts from the upper left corner of the padding edge
+    content-box - the background image starts from the upper left corner of the content -->
+
+
+    <div id="background_origin">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+
+
+
+
+    <h1>Background-Clip property</h1>
+    <!-- border-box - (default) the background is painted to the outside edge of the border
+    padding-box - the background is painted to the outside edge of the padding
+    content-box - the background is painted within the content box -->
+
+    <div id="background_clip">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      </div>
+    </body>
+
 </html>
