@@ -1,0 +1,18 @@
+.clip{
+    white-space: nowrap; 
+
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.text_on_hover{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden; 
+    border: 1px solid #000000;
+}
+.text_on_hover:hover{
+    overflow: visible;
+}
