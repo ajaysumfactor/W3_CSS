@@ -1,0 +1,38 @@
+.three_color{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green);
+}
+.five_color{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+
+
+}
+
+
+.degree{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+
+}
+
+
+.piechart{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+}
+
+
+
+.repeating_conic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* color start and color stops */
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+}

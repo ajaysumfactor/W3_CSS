@@ -1,0 +1,16 @@
+
+ @font-face{
+    font-family: 'Ysabeau SC';
+    src: url('./static/YsabeauSC-Thin.ttf');
+}
+@font-face {
+    font-family: 'Caprasimo', cursive;
+ src: url('./Caprasimo-Regular.ttf');
+}
+.sss{
+    font-family: 'Ysabeau SC';
+
+}
+.another{
+    font-family: 'Caprasimo', cursive;
+}

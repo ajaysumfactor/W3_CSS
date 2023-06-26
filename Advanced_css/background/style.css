@@ -1,0 +1,36 @@
+.multiple_background{
+    background: url('./flower.gif') right bottom no-repeat,url('./background.gif') left top repeat;
+    padding: 20px;
+}
+.cover{
+    border: 3px solid green;
+    height: 120px;
+    width: 150px;
+    background: url('./flower.gif');
+    background-repeat: no-repeat;
+    /* content area completely covered with background image */
+    background-size: cover;
+}
+.contain{
+    border: 3px solid green;
+    height: 120px;
+    width: 150px;
+    background: url('./flower.gif');
+    background-repeat: no-repeat;
+    /* width and height must fit inside the content area */
+    background-size: contain;
+}
+
+#background_origin{
+    border: 10px solid black;
+    padding: 35px;
+    background: url('./flower.gif');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+#background_clip{
+    border: 10px dashed black;
+    padding: 35px;
+    background:crimson;
+    background-clip: padding-box;
+}

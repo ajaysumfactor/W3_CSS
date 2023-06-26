@@ -1,0 +1,46 @@
+.clip{
+    white-space: nowrap; 
+
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.text_on_hover{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden; 
+    border: 1px solid #000000;
+}
+.text_on_hover:hover{
+    overflow: visible;
+}
+
+.word_wrap{
+    width:11rem;
+    border: 1px solid black;
+    /* Allows you to force the text to wrap-even if it means splitting it in the middle of a word */
+    word-wrap: break-word;
+}
+
+.keep_all{
+    border: 3px solid black;
+    width:11rem;
+    word-break: keep-all;
+}
+
+
+.break_all{
+    border: 3px solid black;
+    width:11rem;
+    word-break: break-all;
+}
+
+.horizontal{
+    writing-mode: horizontal-tb;
+}
+.vertical
+{
+    writing-mode: vertical-lr;
+}
