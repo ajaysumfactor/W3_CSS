@@ -1,0 +1,33 @@
+.rounded{
+    border-radius: 8px;
+}
+.circle{
+    border-radius: 50%;
+}
+.thumbnail{
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+img.link{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+img.link:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  img.responsive{
+    max-width: 100%;
+    height: auto;
+  }
+  img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
