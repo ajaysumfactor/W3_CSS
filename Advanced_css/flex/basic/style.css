@@ -1,10 +1,102 @@
 .flex-container{
     display: flex;
     background-color: aquamarine;
+    /* flex direction
+    1. row
+    2. row-reverse
+    3. column
+    4. column-reverse */
+    flex-direction: row;
 }
 .flex-container>div{
     background-color: beige;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.flex-wrap{
+display: flex;
+/* flex-wrap:wrap/nowrap/row-wrap/wrap-reverse */
+flex-wrap: no wrap;
+background-color: green;
+}
+.flex-wrap>div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.justify-content{
+display: flex;
+background-color: aqua;
+/* justify-content:center/flex-start/flex-end/space-around/space-between */
+justify-content: space-around;
+}
+.justify-content>div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.align-items{
+    display: flex;
+    /* align-items:center/flex-start/flex-end/stretch/baseline */
+    align-items:center;
+    background-color: aqua;
+    height: 250px;
+}
+.align-items>div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.baseline{
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+.align-content{
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    /* align-content:space-between/space-around/sretcg/center/flex-start/flex-end */
+    align-content: stretch;
+    height: 600px;
+
+}
+.align-content>div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.center{
+    display:flex;
+    background-color: blue;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+}
+.center>div{
+    width: 100px;
+    height: 100px;
+    border: 3px solid green;
+     background-color: antiquewhite;
+     text-align: center;
+
 }
