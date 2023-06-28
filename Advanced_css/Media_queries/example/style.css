@@ -1,0 +1,32 @@
+.wrapper{
+    overflow: auto;
+}
+#main{
+    margin-left: 4px;
+}
+#leftsidebar{
+    float:none;
+    width: auto;
+}
+#menulist{
+    margin: 0;
+    padding: 0;
+}
+.menuitem{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    padding: 4px;
+    margin: 5px;
+    border: 3px solid green;
+    border-radius: 4px;
+}
+@media screen and (min-width:  480px){
+    #leftsidebar{
+        width: 200px;
+        float: left;
+    }
+    #main{
+        margin-left: 216px;
+    }
+}
