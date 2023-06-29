@@ -1,0 +1,70 @@
+h1{
+    display: block;
+    margin-top: 200px;
+}
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.percent_many{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example_percent;
+    animation-duration: 4s;
+}
+@keyframes example_percent{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+.animation_delay{
+
+ width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example_delay;
+  animation-duration: 5s;
+  animation-delay: 4s;
+}
+@keyframes example_delay{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.iteration_count{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example_delay;
+    animation-duration: 4s;
+    /* here iteration-count can be set to infinite  */
+    animation-iteration-count: 4;
+}
+
+.alternate{
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example_delay;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  /* can be normal,reverse,alternate_reverse */
+  animation-direction: alternate;
+}

@@ -1,0 +1,11 @@
+.newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: green;
+    /* can be none or all */
+    column-span: all;
+    column-width: 100px;
+    /* shorthand:-->column-rule: width style color */
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+}
+
+@media screen and (min-width: 480px){
+    body{
+        background-color: yellowgreen;
+    }
+}
+@media screen and (min-width: 687px){
+    body{
+        background-color: brown;
+    }
+}

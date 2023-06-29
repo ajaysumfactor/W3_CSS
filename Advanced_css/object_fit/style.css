@@ -1,0 +1,25 @@
+img.cover{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+img.contain{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+img.fill{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+img.none{
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+}
+img.scale_down{
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
+}
